@@ -1,0 +1,17 @@
+.image-list {
+    columns: 6 200px;
+    column-gap: 10px;
+    padding-top: 20px;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
